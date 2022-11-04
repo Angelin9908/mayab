@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Roboto Slab', serif;;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1{
+  padding: 30px;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+.panelCard{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+}
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 380px;
+  box-shadow: 0px 0px 10px 3px #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  min-height: 420px;
+  position: relative;
+}
+.image1, .image2, .image3{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position-x: 50%;
+}
+.image1{
+  background-image: url("../imagenes/foto1.jpg");
+}
+.image2{
+  background-image: url("../imagenes/foto2.jpg");
+}
+.image3{
+  background-image: url("../imagenes/foto3.jpg");
+}
+article h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 70% 0% 0% 0%;
+}
+article .leer{
+  text-decoration: none;
+  display: inline-block;
+  color: #FE5800;
+  font-weight: 700;
+  font-family: roboto;
+  font-size: 14px;
+
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  z-index: 2;
+}
+article .leer i{
+  font-size: 10px;
+}
+.circulo{
+  background-color: #FE5800;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: roboto;
+  margin: -25px;
+  text-align: center;
+
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  z-index: 2;
+}
+.etiqueta{
+  background-color: #FE5800;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: roboto;
+
+  position: absolute;
+  top: 47.75%;
+  left: 0;
+  z-index: 2;
+}
+.siguiente{
+  padding: 20px 0px;
+  text-align: right;
+}
+.siguiente a{
+  text-decoration: none;
+  color: #FE5800;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  margin-right: 20px; 
+}
+footer{
+  background-color: #FE5800;
+  text-align: center;
+  padding: 20px 0px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: helvetica;
+  margin-top: 20px;
+}
